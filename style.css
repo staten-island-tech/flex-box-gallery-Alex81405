@@ -1,1 +1,39 @@
+body {
+    background-color: rgb(100, 138, 255);
+    font-family: 'Gluten';
+}
 
+img {
+    width: 400px;
+    height: auto;
+    border: 7px solid black;
+    border-radius: 25px;
+}
+
+.subheader {
+    font-size: 35px;
+    padding: 10px;
+}
+
+.parent1 {
+    background-color: rgb(233, 235, 255);
+    border: 10px solid;
+    border-radius: 25px;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.child1 {
+
+}
+
+.child2 {
+    display: flex;
+    flex: 33.33%;
+    padding: 5px;
+}
+
+.child3 {
+    
+}
