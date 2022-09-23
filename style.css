@@ -1,6 +1,10 @@
 body {
-    background-color: rgb(100, 138, 255);
+    background-image: url(IMG_3874.jpeg);
+    background-color: #cccccc;
     font-family: 'Gluten';
+    margin-right: 150px;
+    margin-left: 150px;
+    margin-top: 25px;
 }
 
 img {
@@ -8,6 +12,7 @@ img {
     height: auto;
     border: 7px solid black;
     border-radius: 25px;
+    margin: 60px;
 }
 
 .subheader {
@@ -19,19 +24,18 @@ img {
     background-color: rgb(233, 235, 255);
     border: 10px solid;
     border-radius: 25px;
-    padding: 10px;
-    font-size: 30px;
+    padding: 20px;
     text-align: center;
 }
 
 .child1 {
-
+    font-size: 70px;
 }
 
 .child2 {
     display: flex;
-    flex: 33.33%;
-    padding: 5px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .child3 {
