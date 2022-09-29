@@ -1,18 +1,20 @@
 body {
-    background-image: url(IMG_3874.jpeg);
+    background-image: url(unnamed.jpg);
     background-color: #cccccc;
     font-family: 'Gluten';
-    margin-right: 150px;
-    margin-left: 150px;
+    margin-right: 100px;
+    margin-left: 100px;
     margin-top: 25px;
+    padding: 10px;
 }
 
 img {
-    width: 400px;
+    width: 350px;
     height: auto;
     border: 7px solid black;
     border-radius: 25px;
-    margin: 60px;
+    margin-right: 85px;
+    margin-left: 85px;
 }
 
 .subheader {
@@ -32,12 +34,29 @@ img {
     font-size: 70px;
 }
 
-.child2 {
+.parent2 {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
     justify-content: center;
 }
 
+.child2 {
+    background-color: rgb(233, 235, 255);
+    border: 7px solid;
+    border-radius: 25px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 85px;
+    margin-right: 85px;
+    margin-bottom: 50px;
+    padding: 20px;
+    font-size: 15px;
+}
+
 .child3 {
-    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 25px;
 }
