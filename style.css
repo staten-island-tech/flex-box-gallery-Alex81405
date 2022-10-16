@@ -64,8 +64,8 @@ button:after {
 }
 
 button:hover {
-    background-color: rgb(240, 235, 255); 
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: rgb(240, 235, 255);
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
     transform: scale(1.2);
 }
 
@@ -137,8 +137,110 @@ button:hover {
 }
 
 @keyframes color {
-    25%  {background-color:rgb(255,204,203);}
-    50%  {background-color:rgb(255,255,153);}
-    75%  {background-color:rgb(144,238,144);}
-    100% {background-color:rgb(102,178,255);}
-  }
+    25% {
+        background-color: rgb(255, 204, 203);
+    }
+
+    50% {
+        background-color: rgb(255, 255, 153);
+    }
+
+    75% {
+        background-color: rgb(144, 238, 144);
+    }
+
+    100% {
+        background-color: rgb(102, 178, 255);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-top: 5px;
+        padding: 10px;
+    }
+
+    .parent1 {
+        margin-bottom: 35px;
+    }
+
+    .child1 {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-size: 35px;
+    }
+
+    .child1:hover {
+        font-size: 300%;
+    }
+
+    .child2 {
+        border: 7px solid;
+        border-radius: 25px;
+        text-align: center;
+        margin-top: 15px;
+        margin-left: 35px;
+        margin-right: 35px;
+        margin-bottom: 15px;
+        padding: 15px;
+        font-size: 20px;
+    }
+
+    img {
+        width: 325px;
+        height: 250px;
+    }
+
+    .subheader {
+        font-size: 20px;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+    body {
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-top: 5px;
+        padding: 10px;
+    }
+
+    .parent1 {
+        margin-bottom: 35px;
+    }
+
+    .child1 {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .child1:hover {
+        font-size: 400%;
+    }
+
+    .child2 {
+        border: 7px solid;
+        border-radius: 25px;
+        text-align: center;
+        margin-top: 15px;
+        margin-left: 35px;
+        margin-right: 35px;
+        margin-bottom: 15px;
+        padding: 15px;
+        font-size: 30px;
+    }
+
+    img {
+        width: 600px;
+        height: 450px;
+    }
+
+    .subheader {
+        font-size: 35px;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+}
